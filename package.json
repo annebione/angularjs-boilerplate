@@ -1,0 +1,39 @@
+{
+  "name": "easy-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp gulpfile.development.js",
+    "split": "webpack webpack.production.js",
+    "dist": "gulp gulpfile.production.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-router": "^0.2.18",
+    "gulp-base64": "^0.1.3",
+    "gulp-csso": "^1.0.1",
+    "gulp-gzip": "^1.2.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-shorthand": "^1.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uncss": "^1.0.4",
+    "lazysizes": "^1.4.0",
+    "oclazyload": "^1.0.9",
+    "requirejs": "^2.1.22"
+  },
+  "devDependencies": {
+    "backstopjs": "^1.1.0",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "karma": "^0.13.21",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.2.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "mocha": "^2.4.5",
+    "psi": "^2.0.3",
+    "webpack": "^1.12.14"
+  }
+}
