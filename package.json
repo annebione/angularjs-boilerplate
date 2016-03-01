@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "gulp gulpfile.development.js",
+    "dev": "gulp development",
     "split": "webpack webpack.production.js",
-    "dist": "gulp gulpfile.production.js"
+    "dist": "gulp production"
   },
   "author": "",
   "license": "MIT",
@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "backstopjs": "^1.1.0",
+    "browser-sync": "^2.11.1",
     "chai": "^3.5.0",
     "gulp": "^3.9.1",
     "karma": "^0.13.21",
@@ -34,6 +35,7 @@
     "karma-phantomjs-launcher": "^1.0.0",
     "mocha": "^2.4.5",
     "psi": "^2.0.3",
+    "require-dir": "^0.3.0",
     "webpack": "^1.12.14"
   }
 }
